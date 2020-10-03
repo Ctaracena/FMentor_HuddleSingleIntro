@@ -6,6 +6,7 @@ body {
   background-image: url('../images/bg-desktop.svg');
   background-color: hsl(257, 40%, 49%);
   overflow-x: hidden;
+  position: relative;
 }
 
 header {
@@ -67,6 +68,7 @@ footer {
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .social-container {
@@ -84,11 +86,11 @@ footer {
 
 .credits {
   position: absolute;
-  bottom: 0;
+  bottom: -35px;
   width: 100vw;
 }
 .attribution { 
-  margin-top: 10px;
+  padding-top: 30px;
   font-size: 11px; 
   text-align: center; 
 }
